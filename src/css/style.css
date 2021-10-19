@@ -23,7 +23,7 @@ button {
 }
 
 body {
-  background-image: url("../../templates/home/Desktop_Home.jpg");
+  background-image: url("../../templates/home/Mobile_Home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
@@ -60,6 +60,30 @@ body {
     display: block;
   }
 }
+.button {
+  display: block;
+  width: max-content;
+}
+.button__icon {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+  padding-left: 0.95rem;
+  padding-right: 1rem;
+  padding-top: 1.1rem;
+}
+.button__container-1 {
+  align-items: center;
+  background-color: #20394c;
+  display: flex;
+}
+.button__p {
+  color: #ffff;
+  font-size: 12px;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  text-transform: uppercase;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -73,7 +97,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .header__cotainer-1 {
+  .header__container-1 {
     width: 90%;
   }
 }
@@ -81,6 +105,74 @@ body {
   .header__container-1 {
     margin-top: 2rem;
     width: 83%;
+  }
+}
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.home__section-1 {
+  align-items: flex-end;
+  background-image: url("../assets/homepage/desktop/image-homepage-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 37.5rem;
+  margin-top: 3.4rem;
+  width: 77%;
+}
+.home__container-1 {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 357px;
+  justify-content: space-between;
+  width: 445px;
+}
+.home__container-1:nth-child(2) {
+  background-color: #fafafa;
+}
+.home__h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  line-height: 50px;
+  color: #33323e;
+  margin-top: 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home__section-1 {
+    background-image: url("../assets/homepage/tablet/image-homepage-hero.jpg");
+    width: 90%;
+  }
+  .home__container-1 {
+    height: 278px;
+    width: 514px;
+  }
+  .home__h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.36px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home__section-1 {
+    background-image: url("../assets/homepage/mobile/image-homepage-hero.jpg");
+    background-position: top;
+    background-size: contain;
+    margin-top: 2.5rem;
+    width: 83%;
+  }
+  .home__container-1 {
+    background-color: transparent;
+    margin-bottom: 5rem;
+  }
+  .home__h1 {
+    margin-bottom: 2rem;
   }
 }
 

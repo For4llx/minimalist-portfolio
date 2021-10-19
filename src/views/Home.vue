@@ -33,15 +33,33 @@
       </nav>
     </div>
   </header>
-  <main>
-    <!--<section>
-      <h1>
-        Bonjour, je m'appelle Roméo Nobimé et j'adore construire de beau sites
-        internets
-      </h1>
-      <a href="#about-me">À propos de moi</a>
+  <main class="home">
+    <section class="home__section-1">
+      <div class="home__container-1">
+        <h1 class="home__h1">
+          Bonjour, je m'appelle Roméo Nobimé et j'adore construire de beau sites
+          internets
+        </h1>
+        <a class="button" href="#about-me">
+          <div class="button__container-1">
+            <svg
+              class="button__icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="14"
+            >
+              <g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
+                <path d="M0 9l8 4 8-4" />
+                <path opacity=".5" d="M0 5l8 4 8-4" />
+                <path opacity=".25" d="M0 1l8 4 8-4" />
+              </g>
+            </svg>
+            <p class="button__p">À propos de moi</p>
+          </div>
+        </a>
+      </div>
     </section>
-    <section>
+    <!--<section>
       <figure>
         <img src="../assets/homepage/desktop/photo_de_profil.jpg" />
         <figcaption>

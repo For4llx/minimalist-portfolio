@@ -1,0 +1,26 @@
+.button {
+  display: block;
+  width: max-content;
+
+  &__icon {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+    padding-left: 0.95rem;
+    padding-right: 1rem;
+    padding-top: 1.1rem;
+  }
+
+  &__container-1 {
+    align-items: center;
+    background-color: $primary-color-2;
+    display: flex;
+  }
+
+  &__p {
+    color: #ffff;
+    font-size: 12px;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    text-transform: uppercase;
+  }
+}

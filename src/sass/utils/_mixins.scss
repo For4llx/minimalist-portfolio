@@ -8,3 +8,15 @@
     @content;
   }
 }
+@mixin title-1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  line-height: 50px;
+}
+@mixin title-2 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -0.36px;
+  line-height: 42px;
+}
