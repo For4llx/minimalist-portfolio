@@ -24,18 +24,23 @@
       <a href="#about-me">À propos de moi</a>
     </section>
     <section>
-      <h2>À propos de moi</h2>
-      <p>
-        Je suis un développeur front-end junior à la recherche d'un nouveau rôle
-        dans une entreprise passionnante. Je me concentre pour écrire du code
-        HTML accessible, en utilisant des pratiques CSS modernes et en écrivant
-        du JavaScript propre. Lorsque j'écris du code JavaScript, j'utilise
-        principalement Vue.js, mais je peux m'adapter à quels que soient les
-        outils nécessaires. Je suis basé à Paris, en France, mais je serais
-        heureux de travailler à distance et avoir de l'expérience dans des
-        équipes à distance.
-      </p>
-      <router-link>Voir le Portfolio</router-link>
+      <figure>
+        <img src="../assets/homepage/desktop/photo_de_profil.jpg" />
+        <figcaption>
+          <h2>À propos de moi</h2>
+          <p>
+            Je suis un développeur front-end junior à la recherche d'un nouveau
+            rôle dans une entreprise passionnante. Je me concentre pour écrire
+            du code HTML accessible, en utilisant des pratiques CSS modernes et
+            en écrivant du JavaScript propre. Lorsque j'écris du code
+            JavaScript, j'utilise principalement Vue.js, mais je peux m'adapter
+            à quels que soient les outils nécessaires. Je suis basé à Paris, en
+            France, mais je serais heureux de travailler à distance et avoir de
+            l'expérience dans des équipes à distance.
+          </p>
+          <router-link>Voir le Portfolio</router-link>
+        </figcaption>
+      </figure>
     </section>
     <section>
       <h2>Intéressé à travailler avec moi ?</h2>
