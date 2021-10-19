@@ -14,6 +14,7 @@
         <li><router-link>Contactez moi</router-link></li>
       </ul>
     </nav>
+    <button><img src="../assets/icons/hamburger.svg" alt="Menu" /></button>
   </header>
   <main>
     <section>
