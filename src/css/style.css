@@ -1,5 +1,5 @@
 * {
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,9 @@ a {
 }
 
 body {
-  background-image: url('../../templates/home/Desktop_Home.jpg');
+  background-image: url("../../templates/home/Desktop_Home.jpg");
   background-repeat: no-repeat;
   position: absolute;
 }
+
+/*# sourceMappingURL=style.css.map */
