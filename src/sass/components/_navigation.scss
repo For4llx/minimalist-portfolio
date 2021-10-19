@@ -1,0 +1,38 @@
+.navigation {
+  &__open {
+    display: none;
+  }
+
+  &__close {
+    display: none;
+  }
+
+  &__ul {
+    display: flex;
+  }
+
+  &__link {
+    color: $primary-color-3;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $primary-color-1;
+    }
+  }
+}
+@include mobile {
+  .navigation {
+    margin-top: 0.25rem;
+
+    &__ul {
+      display: none;
+    }
+
+    &__open {
+      display: block;
+    }
+  }
+}

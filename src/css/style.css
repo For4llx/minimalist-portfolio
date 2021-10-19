@@ -1,7 +1,13 @@
 * {
-  font-family: "Ibarra Real Nova", serif;
+  font-family: "Public Sans", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Ibarra Real Nova", serif;
 }
 
 li {
@@ -12,10 +18,70 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: hidden;
+}
+
 body {
   background-image: url("../../templates/home/Desktop_Home.jpg");
   background-repeat: no-repeat;
-  position: absolute;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.navigation__open {
+  display: none;
+}
+.navigation__close {
+  display: none;
+}
+.navigation__ul {
+  display: flex;
+}
+.navigation__link {
+  color: #33323e;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+.navigation__link:hover {
+  color: #5fb4a2;
+}
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    margin-top: 0.25rem;
+  }
+  .navigation__ul {
+    display: none;
+  }
+  .navigation__open {
+    display: block;
+  }
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__container-1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  width: 77%;
+}
+
+@media screen and (max-width: 768px) {
+  .header__cotainer-1 {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__container-1 {
+    margin-top: 2rem;
+    width: 83%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

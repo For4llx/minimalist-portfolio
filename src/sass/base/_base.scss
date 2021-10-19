@@ -1,7 +1,13 @@
 * {
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Public Sans', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 li {
@@ -12,8 +18,13 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: hidden;
+}
+
 body {
   background-image: url('../../templates/home/Desktop_Home.jpg');
   background-repeat: no-repeat;
-  position: absolute;
+  background-size: cover;
+  opacity: 0.5;
 }

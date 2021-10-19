@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  &__container-1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 77%;
+  }
+}
+@include tablet {
+  .header {
+    &__cotainer-1 {
+      width: 90%;
+    }
+  }
+}
+@include mobile {
+  .header {
+    &__container-1 {
+      margin-top: 2rem;
+      width: 83%;
+    }
+  }
+}

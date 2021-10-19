@@ -1,24 +1,40 @@
 <template>
-  <header>
-    <svg xmlns="http://www.w3.org/2000/svg" width="61" height="32">
-      <path
-        fill="#33323D"
-        fill-rule="evenodd"
-        d="M60.082 5.878L44.408 32 28.735 5.878h31.347zM15.673 0l15.674 26.122H0L15.673 0z"
-      />
-    </svg>
-    <nav>
-      <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/portfolio">Portfolio</router-link></li>
-        <li><router-link to="/contact">Contactez moi</router-link></li>
-      </ul>
-    </nav>
-    <button><img src="../assets/icons/hamburger.svg" alt="Menu" /></button>
-    <button><img src="../assets/icons/close.svg" alt="close" /></button>
+  <header class="header">
+    <div class="header__container-1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="32">
+        <path
+          fill="#33323D"
+          fill-rule="evenodd"
+          d="M60.082 5.878L44.408 32 28.735 5.878h31.347zM15.673 0l15.674 26.122H0L15.673 0z"
+        />
+      </svg>
+      <nav class="navigation">
+        <button class="navigation__open">
+          <img src="../assets/icons/hamburger.svg" alt="Menu" />
+        </button>
+        <button class="navigation__close">
+          <img src="../assets/icons/close.svg" alt="close" />
+        </button>
+        <ul class="navigation__ul">
+          <li class="navigation__list">
+            <router-link to="/" class="navigation__link">Accueil</router-link>
+          </li>
+          <li class="navigation__list">
+            <router-link to="/portfolio" class="navigation__link"
+              >Portfolio</router-link
+            >
+          </li>
+          <li class="navigation__list">
+            <router-link to="/contact" class="navigation__link"
+              >Contactez moi</router-link
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-    <section>
+    <!--<section>
       <h1>
         Bonjour, je m'appelle Roméo Nobimé et j'adore construire de beau sites
         internets
@@ -47,9 +63,9 @@
     <section>
       <h2>Intéressé à travailler avec moi ?</h2>
       <router-link to="/contact">Contactez moi</router-link>
-    </section>
+    </section>-->
   </main>
-  <footer>
+  <!--<footer>
     <svg xmlns="http://www.w3.org/2000/svg" width="61" height="32">
       <path
         fill="#33323D"
@@ -87,7 +103,7 @@
         </li>
       </ul>
     </nav>
-  </footer>
+  </footer>-->
 </template>
 
 <script>
