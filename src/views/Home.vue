@@ -9,12 +9,13 @@
     </svg>
     <nav>
       <ul>
-        <li><router-link>Home</router-link></li>
-        <li><router-link>Portfolio</router-link></li>
-        <li><router-link>Contactez moi</router-link></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/portfolio">Portfolio</router-link></li>
+        <li><router-link to="/contact">Contactez moi</router-link></li>
       </ul>
     </nav>
     <button><img src="../assets/icons/hamburger.svg" alt="Menu" /></button>
+    <button><img src="../assets/icons/close.svg" alt="close" /></button>
   </header>
   <main>
     <section>
@@ -39,13 +40,13 @@
             France, mais je serais heureux de travailler à distance et avoir de
             l'expérience dans des équipes à distance.
           </p>
-          <router-link>Voir le Portfolio</router-link>
+          <router-link to="/portfolio">Voir le Portfolio</router-link>
         </figcaption>
       </figure>
     </section>
     <section>
       <h2>Intéressé à travailler avec moi ?</h2>
-      <router-link>Contactez moi</router-link>
+      <router-link to="/contact">Contactez moi</router-link>
     </section>
   </main>
   <footer>
@@ -58,22 +59,18 @@
     </svg>
     <nav>
       <ul>
-        <li><router-link>Home</router-link></li>
-        <li><router-link>Portfolio</router-link></li>
-        <li><router-link>Contactez moi</router-link></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/portfolio">Portfolio</router-link></li>
+        <li><router-link to="/contact">Contactez moi</router-link></li>
       </ul>
     </nav>
     <nav>
       <ul>
         <li>
-          <router-link
-            ><img src="../assets/icons/github.svg" alt="GitHub"
-          /></router-link>
+          <a><img src="../assets/icons/github.svg" alt="GitHub"/></a>
         </li>
         <li>
-          <router-link
-            ><img src="../assets/icons/linkedin.svg" alt="LinkedIn"
-          /></router-link>
+          <a><img src="../assets/icons/linkedin.svg" alt="LinkedIn"/></a>
         </li>
       </ul>
     </nav>

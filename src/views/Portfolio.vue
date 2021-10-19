@@ -9,12 +9,13 @@
     </svg>
     <nav>
       <ul>
-        <li><router-link>Home</router-link></li>
-        <li><router-link>Portfolio</router-link></li>
-        <li><router-link>Contactez moi</router-link></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/portfolio">Portfolio</router-link></li>
+        <li><router-link to="/contact">Contactez moi</router-link></li>
       </ul>
     </nav>
     <button><img src="../assets/icons/hamburger.svg" alt="Menu" /></button>
+    <button><img src="../assets/icons/close.svg" alt="close" /></button>
   </header>
   <section>
     <figure>
@@ -61,3 +62,9 @@
     </nav>
   </footer>
 </template>
+
+<script>
+export default {
+  name: 'Portfolio',
+}
+</script>

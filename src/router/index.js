@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/portfolio',
     name: 'Portfolio',
-    component: () => import('../views/About.vue'),
+    component: () => import('../views/Portfolio.vue'),
   },
 ]
 
