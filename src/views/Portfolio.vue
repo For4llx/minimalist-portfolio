@@ -49,8 +49,7 @@
     <nav>
       <ul>
         <li>
-          <a
-            href="https://www.linkedin.com/in/rom%C3%A9o-nobim%C3%A9-308649219/"
+          <a href="https://github.com/For4llx"
             ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24">
               <path
                 fill="#33323D"
@@ -59,7 +58,8 @@
           ></a>
         </li>
         <li>
-          <a href="https://github.com/For4llx"
+          <a
+            href="https://www.linkedin.com/in/rom%C3%A9o-nobim%C3%A9-308649219/"
             ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
               <path
                 fill="#33323D"
