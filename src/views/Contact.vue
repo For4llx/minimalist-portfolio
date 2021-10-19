@@ -17,20 +17,47 @@
     <button><img src="../assets/icons/hamburger.svg" alt="Menu" /></button>
     <button><img src="../assets/icons/close.svg" alt="close" /></button>
   </header>
-  <section>
-    <figure>
-      <img src="" />
-      <figcaption>
-        <h2></h2>
-        <p></p>
-        <router-link>Voir le projet</router-link>
-      </figcaption>
-    </figure>
-  </section>
-  <section>
-    <h2>Intéressé à travailler avec moi ?</h2>
-    <router-link>Contactez moi</router-link>
-  </section>
+  <main>
+    <section>
+      <h2>
+        Se rencontrez
+      </h2>
+      <p>
+        J'adorais entendre sur ce dont vous travaillez et comment je pourrais
+        vous aider. Je suis actuellement à la recherche d'un nouveau poste et
+        suis ouvert à un large éventail d'opportunités. Ma préférence serait de
+        trouver un poste dans une entreprise à Paris. Mais je suis également
+        heureux d'entendre parler d'opportunités qui ne correspondent pas à
+        cette description. Je suis une personne travailleuse et positive qui
+        abordera toujours chaque tâche avec un sens du but et une attention aux
+        détails. N'hésitez pas à consulter mes profils en ligne ci-dessous et à
+        me contacter via le formulaire.
+      </p>
+      <nav>
+        <ul>
+          <li>
+            <a><img src="../assets/icons/github.svg" alt="GitHub"/></a>
+          </li>
+          <li>
+            <a><img src="../assets/icons/linkedin.svg" alt="LinkedIn"/></a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section>
+      <h2>
+        Contactez moi
+      </h2>
+      <form>
+        <label>Nom</label>
+        <input placeholder="Jane Appleseed" />
+        <label>Adresse Email</label>
+        <input placeholder="email@example.com" />
+        <label>Message</label>
+        <textarea placeholder="Comment puis-je vous aider ?" />
+      </form>
+    </section>
+  </main>
   <footer>
     <svg xmlns="http://www.w3.org/2000/svg" width="61" height="32">
       <path
@@ -41,9 +68,9 @@
     </svg>
     <nav>
       <ul>
-        <li><router-link>Home</router-link></li>
-        <li><router-link>Portfolio</router-link></li>
-        <li><router-link>Contactez moi</router-link></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/portfolio">Portfolio</router-link></li>
+        <li><router-link to="/contact">Contactez moi</router-link></li>
       </ul>
     </nav>
     <nav>
@@ -74,6 +101,6 @@
 
 <script>
 export default {
-  name: 'Portfolio',
+  name: 'Contact',
 }
 </script>
