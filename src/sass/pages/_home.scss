@@ -35,7 +35,7 @@
   }
 
   &__section-2 {
-    margin-top: 9rem;
+    margin-top: 9.3rem;
     width: 77%;
   }
 
@@ -50,7 +50,9 @@
   }
 
   &__figcaption {
-    border-top: 1px $primary-color-3 solid;
+    border-bottom: 1px solid $primary-color-3;
+    border-top: 1px solid $primary-color-3;
+    padding-bottom: 3rem;
     padding-top: 3rem;
     width: 40%;
   }

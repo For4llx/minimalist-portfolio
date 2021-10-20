@@ -23,7 +23,7 @@ button {
 }
 
 body {
-  background-image: url("../../templates/home/Mobile_Home.jpg");
+  background-image: url("../../templates/home/Desktop_Home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
@@ -164,7 +164,7 @@ body {
   margin-top: 3.5rem;
 }
 .home__section-2 {
-  margin-top: 9rem;
+  margin-top: 9.3rem;
   width: 77%;
 }
 .home__figure {
@@ -176,7 +176,9 @@ body {
   width: 49%;
 }
 .home__figcaption {
-  border-top: 1px #33323e solid;
+  border-bottom: 1px solid #33323e;
+  border-top: 1px solid #33323e;
+  padding-bottom: 3rem;
   padding-top: 3rem;
   width: 40%;
 }
