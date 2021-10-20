@@ -1,0 +1,21 @@
+.social {
+  &__icon-path {
+    fill: #ffff;
+  }
+
+  &__ul {
+    display: flex;
+  }
+
+  &__list {
+    margin-left: 1rem;
+
+    &:hover {
+      .social {
+        &__icon-path {
+          fill: $primary-color-1;
+        }
+      }
+    }
+  }
+}

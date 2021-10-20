@@ -23,7 +23,7 @@ button {
 }
 
 body {
-  background-image: url("../../templates/home/Desktop_Home.jpg");
+  background-image: url("../../templates/home/Mobile_Home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
@@ -38,12 +38,17 @@ body {
 .navigation__ul {
   display: flex;
 }
+.navigation__list {
+  margin-left: 1rem;
+}
 .navigation__link {
   color: #33323e;
   font-size: 12px;
   letter-spacing: 2px;
-  margin-left: 1rem;
   text-transform: uppercase;
+}
+.navigation__link--white {
+  color: #ffff;
 }
 .navigation__link:hover {
   color: #5fb4a2;
@@ -53,8 +58,19 @@ body {
   .navigation {
     margin-top: 0.25rem;
   }
+  .navigation--footer {
+    margin: 0;
+  }
   .navigation__ul {
     display: none;
+  }
+  .navigation__ul--footer {
+    display: block;
+    text-align: center;
+  }
+  .navigation__list--footer {
+    margin-bottom: 1.7rem;
+    margin-left: 0;
   }
   .navigation__open {
     display: block;
@@ -108,6 +124,19 @@ body {
   color: #ffff;
 }
 
+.social__icon-path {
+  fill: #ffff;
+}
+.social__ul {
+  display: flex;
+}
+.social__list {
+  margin-left: 1rem;
+}
+.social__list:hover .social__icon-path {
+  fill: #5fb4a2;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -129,6 +158,58 @@ body {
   .header__container-1 {
     margin-top: 2rem;
     width: 83%;
+  }
+}
+.footer {
+  background-color: #33323e;
+  display: flex;
+  justify-content: center;
+  margin-top: 9.3rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.footer__container-1 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 77%;
+}
+.footer__logo-path {
+  fill: #ffff;
+}
+.footer__logo {
+  margin-right: 2rem;
+}
+.footer__container-2 {
+  position: absolute;
+  right: 165px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container-1 {
+    width: 90%;
+  }
+  .footer__container-2 {
+    right: 18px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    margin-top: 5rem;
+    padding-bottom: 3.2rem;
+    padding-top: 3.5rem;
+  }
+  .footer__container-1 {
+    flex-direction: column;
+  }
+  .footer__container-2 {
+    margin-right: 1rem;
+    margin-top: 0.7rem;
+    position: inherit;
+  }
+  .footer__logo {
+    margin-bottom: 2.3rem;
+    margin-right: 0;
   }
 }
 .home {

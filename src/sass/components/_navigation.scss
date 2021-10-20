@@ -11,12 +11,19 @@
     display: flex;
   }
 
+  &__list {
+    margin-left: 1rem;
+  }
+
   &__link {
     color: $primary-color-3;
     font-size: 12px;
     letter-spacing: 2px;
-    margin-left: 1rem;
     text-transform: uppercase;
+
+    &--white {
+      color: #ffff;
+    }
 
     &:hover {
       color: $primary-color-1;
@@ -27,8 +34,24 @@
   .navigation {
     margin-top: 0.25rem;
 
+    &--footer {
+      margin: 0;
+    }
+
     &__ul {
       display: none;
+
+      &--footer {
+        display: block;
+        text-align: center;
+      }
+    }
+
+    &__list {
+      &--footer {
+        margin-bottom: 1.7rem;
+        margin-left: 0;
+      }
     }
 
     &__open {
