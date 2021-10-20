@@ -83,10 +83,12 @@
         </figcaption>
       </figure>
     </section>
-    <!--<section>
-      <h2>Intéressé à travailler avec moi ?</h2>
-      <router-link to="/contact">Contactez moi</router-link>
-    </section>-->
+    <section class="home__section-3">
+      <h2 class="home__h2 home__h2--no-margin">
+        Intéressé à travailler avec moi ?
+      </h2>
+      <router-link class="button-2" to="/contact">Contactez moi</router-link>
+    </section>
   </main>
   <!--<footer>
     <svg xmlns="http://www.w3.org/2000/svg" width="61" height="32">

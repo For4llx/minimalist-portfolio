@@ -35,11 +35,14 @@
   display: block;
   font-size: 12px;
   font-weight: bold;
+  height: max-content;
+  order: 3;
   padding-bottom: 1rem;
   padding-left: 1.9rem;
   padding-right: 1.9rem;
   padding-top: 0.9rem;
   text-transform: uppercase;
+  white-space: nowrap;
   width: max-content;
 
   &:hover {
