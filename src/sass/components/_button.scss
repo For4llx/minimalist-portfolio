@@ -14,6 +14,10 @@
     align-items: center;
     background-color: $primary-color-2;
     display: flex;
+
+    &:hover {
+      background-color: $primary-color-1;
+    }
   }
 
   &__p {
@@ -22,5 +26,24 @@
     padding-left: 2.3rem;
     padding-right: 2.3rem;
     text-transform: uppercase;
+  }
+}
+
+.button-2 {
+  border: solid $primary-color-3 1px;
+  color: $primary-color-3;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  padding-top: 0.9rem;
+  text-transform: uppercase;
+  width: max-content;
+
+  &:hover {
+    background-color: $primary-color-3;
+    color: #ffff;
   }
 }

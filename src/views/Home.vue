@@ -59,12 +59,15 @@
         </a>
       </div>
     </section>
-    <!--<section>
-      <figure>
-        <img src="../assets/homepage/desktop/photo_de_profil.jpg" />
-        <figcaption>
-          <h2>À propos de moi</h2>
-          <p>
+    <section class="home__section-2">
+      <figure class="home__figure">
+        <img
+          class="home__img"
+          src="../assets/homepage/desktop/photo_de_profil.jpg"
+        />
+        <figcaption class="home__figcaption">
+          <h2 class="home__h2">À propos de moi</h2>
+          <p class="home__description">
             Je suis un développeur front-end junior à la recherche d'un nouveau
             rôle dans une entreprise passionnante. Je me concentre pour écrire
             du code HTML accessible, en utilisant des pratiques CSS modernes et
@@ -74,11 +77,13 @@
             France, mais je serais heureux de travailler à distance et avoir de
             l'expérience dans des équipes à distance.
           </p>
-          <router-link to="/portfolio">Voir le Portfolio</router-link>
+          <router-link class="button-2" to="/portfolio"
+            >Voir le Portfolio</router-link
+          >
         </figcaption>
       </figure>
     </section>
-    <section>
+    <!--<section>
       <h2>Intéressé à travailler avec moi ?</h2>
       <router-link to="/contact">Contactez moi</router-link>
     </section>-->
