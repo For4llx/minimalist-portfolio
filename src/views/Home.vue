@@ -59,15 +59,15 @@
         </a>
       </div>
     </section>
-    <section class="home__section-2">
-      <figure class="home__figure">
+    <section class="presentation">
+      <figure class="presentation__figure">
         <img
-          class="home__img"
+          class="presentation__img"
           src="../assets/homepage/desktop/photo_de_profil.jpg"
         />
-        <figcaption class="home__figcaption">
-          <h2 class="home__h2">À propos de moi</h2>
-          <p class="home__description">
+        <figcaption class="presentation__figcaption">
+          <h2 class="presentation__h2">À propos de moi</h2>
+          <p class="presentation__description">
             Je suis un développeur front-end junior à la recherche d'un nouveau
             rôle dans une entreprise passionnante. Je me concentre pour écrire
             du code HTML accessible, en utilisant des pratiques CSS modernes et

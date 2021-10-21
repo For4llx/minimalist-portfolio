@@ -34,29 +34,6 @@
     margin-top: 3.5rem;
   }
 
-  &__section-2 {
-    margin-top: 9.3rem;
-    width: 77%;
-  }
-
-  &__figure {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  &__img {
-    object-fit: cover;
-    width: 49%;
-  }
-
-  &__figcaption {
-    border-bottom: 1px solid $primary-color-3;
-    border-top: 1px solid $primary-color-3;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    width: 40%;
-  }
-
   &__h2 {
     @include title-2;
     margin-bottom: 2rem;
