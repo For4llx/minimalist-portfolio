@@ -23,10 +23,7 @@ button {
 }
 
 body {
-  background-image: url("../../templates/home/Mobile_Home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
+  background-color: #fafafa;
 }
 
 .navigation__open {
@@ -164,9 +161,14 @@ body {
   margin-top: 9.3rem;
   width: 77%;
 }
+.presentation__container {
+  display: flex;
+  justify-content: space-between;
+}
 .presentation__figure {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 .presentation__figure--reverse {
   flex-direction: row-reverse;
@@ -202,6 +204,9 @@ body {
   margin-bottom: 1.5rem;
   width: 80%;
 }
+.presentation__description--project {
+  width: 100%;
+}
 
 @media screen and (max-width: 768px) {
   .presentation {
@@ -216,6 +221,9 @@ body {
   }
   .presentation__description {
     width: 100%;
+  }
+  .presentation__container {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 480px) {
@@ -436,6 +444,71 @@ body {
     margin-bottom: 2.5rem;
     text-align: center;
     width: 95%;
+  }
+}
+.project {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  width: 77%;
+}
+.project__figure {
+  width: 100%;
+}
+.project__img {
+  height: 31rem;
+  margin-bottom: 7.5rem;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+.project__container-1 {
+  border-top: 1px solid #33323e;
+  padding-top: 2.5rem;
+  width: 31.5%;
+}
+.project__container-2 {
+  width: 57%;
+}
+.project__h3 {
+  font-size: 32px;
+  letter-spacing: -0.29px;
+  line-height: 36px;
+  margin-bottom: 1.5rem;
+}
+.project__description {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+.project__preview {
+  width: 100%;
+}
+.project__competences {
+  color: #5fb4a2;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.project__technologies {
+  color: #5fb4a2;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    width: 90%;
+  }
+  .project__img {
+    height: 19rem;
+    margin-bottom: 3rem;
+  }
+  .project__container-1 {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  .project__container-2 {
+    width: 90%;
   }
 }
 

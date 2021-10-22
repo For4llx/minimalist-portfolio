@@ -20,6 +20,11 @@
   letter-spacing: -0.36px;
   line-height: 42px;
 }
+@mixin title-3 {
+  font-size: 32px;
+  letter-spacing: -0.29px;
+  line-height: 36px;
+}
 @mixin body {
   font-size: 16px;
   line-height: 30px;

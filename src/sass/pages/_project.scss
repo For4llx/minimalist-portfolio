@@ -1,0 +1,73 @@
+.project {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  width: 77%;
+
+  &__figure {
+    width: 100%;
+  }
+
+  &__img {
+    height: 31rem;
+    margin-bottom: 7.5rem;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+  }
+
+  &__container-1 {
+    border-top: 1px solid $primary-color-3;
+    padding-top: 2.5rem;
+    width: 31.5%;
+  }
+
+  &__container-2 {
+    width: 57%;
+  }
+
+  &__h3 {
+    @include title-3;
+    margin-bottom: 1.5rem;
+  }
+
+  &__description {
+    @include body;
+    margin-bottom: 2rem;
+  }
+
+  &__preview {
+    width: 100%;
+  }
+
+  &__competences {
+    color: $primary-color-1;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  &__technologies {
+    color: $primary-color-1;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+}
+@include tablet {
+  .project {
+    width: 90%;
+
+    &__img {
+      height: 19rem;
+      margin-bottom: 3rem;
+    }
+
+    &__container-1 {
+      margin-bottom: 3rem;
+      width: 100%;
+    }
+
+    &__container-2 {
+      width: 90%;
+    }
+  }
+}
