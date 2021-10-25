@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "sass": "sass --watch ./src/sass/main.scss:./src/css/style.css",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
