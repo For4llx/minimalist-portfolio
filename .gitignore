@@ -1,7 +1,6 @@
 .DS_Store
 src/assets
 node_modules
-/dist
 templates
 
 # local env files
