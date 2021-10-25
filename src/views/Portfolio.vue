@@ -25,8 +25,8 @@
             >
           </li>
           <li class="navigation__list">
-            <router-link to="/contact" class="navigation__link"
-              >Contactez moi</router-link
+            <a href="mailto:romeo.nobime@mailo.com" class="navigation__link"
+              >Contactez moi</a
             >
           </li>
         </ul>
@@ -44,12 +44,13 @@
           <h2 class="presentation__h2">Reservia</h2>
           <p class="presentation__description">
             Ce projet m'a demandé de construire une page d'accueil entièrement
-            responsive selon un design fourni. J'ai utilisé HTML5 avec du CSS
-            vanilla en utilisant principalement flexbox. Ce projet m'a
-            principalement initié à la méthodologie BEM, aux bonnes pratiques et
-            au respect des normes W3C en HTML et CSS.
+            responsive selon un design fourni pour un site de réservation de
+            chambre d'hôtel. J'ai utilisé HTML5 avec du CSS vanilla en utilisant
+            principalement flexbox. Ce projet m'a principalement initié à la
+            méthodologie BEM, aux bonnes pratiques et au respect des normes W3C
+            en HTML et CSS.
           </p>
-          <router-link class="button-2" to="/portfolio"
+          <router-link class="button-2" to="/Reservia"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -62,13 +63,13 @@
         <figcaption class="presentation__figcaption">
           <h2 class="presentation__h2">Oh My Food</h2>
           <p class="presentation__description">
-            Ce projet m'as demandé de construire plusieurs pages entièrement
-            responsive selon un design fourni pour un site de reservation de
+            Ce projet m'a demandé de construire plusieurs pages entièrement
+            responsive selon un design fourni pour un site de réservation de
             menu en restaurant. J'ai utilisé HTML5 avec du SASS et des
-            animations CSS moderne. Ce projet m'as principalement inité au
+            animations CSS moderne. Ce projet m'a principalement initié aux
             animations, à SASS et au concept de réutilisation de composants CSS.
           </p>
-          <router-link class="button-2" to="/portfolio"
+          <router-link class="button-2" to="/ohmyfood"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -81,14 +82,14 @@
         <figcaption class="presentation__figcaption">
           <h2 class="presentation__h2">La Chouette Agence</h2>
           <p class="presentation__description">
-            Ce projet m'as demandé retravailler un site internet déjà existant
-            pour améliorer ses performences, son SEO et son accessibilité. J'ai
+            Ce projet m'a demandé de retravailler un site internet déjà existant
+            pour améliorer ses performances, son SEO et son accessibilité. J'ai
             utilisé l'outil lighthouse pour faire un audit avant et après mon
-            intervention. Ce projet m'as inité au bonne pratique SEO, au bonne
-            pratique d'accessibilité et à l'amélioration des performences d'un
-            site internet.
+            intervention. Ce projet m'a initié aux bonnes pratiques SEO, aux
+            bonnes pratiques d'accessibilité et à l'amélioration des
+            performances d'un site internet.
           </p>
-          <router-link class="button-2" to="/portfolio"
+          <router-link class="button-2" to="/lachouetteagence"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -101,13 +102,13 @@
         <figcaption class="presentation__figcaption">
           <h2 class="presentation__h2">Orinoco</h2>
           <p class="presentation__description">
-            Ce projet m'as demandé de designer et de construire un site internet
+            Ce projet m'a demandé de designer et de construire un site internet
             de E-commerce. J'ai utilisé figma pour le design et HTML5, SASS,
-            Javascript vanilla pour le développement front. Ce projet m'as
-            initié aux L'UX/UI desing, Javascript et à ses bonnes pratiques, aux
-            plan de test, au formulaire et au appel API.
+            Javascript vanilla pour le développement front. Ce projet m'a initié
+            aux l'UX/UI design, Javascript et à ses bonnes pratiques, aux plans
+            de test, au formulaire et aux appels APIs.
           </p>
-          <router-link class="button-2" to="/portfolio"
+          <router-link class="button-2" to="/orinoco"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -120,14 +121,15 @@
         <figcaption class="presentation__figcaption">
           <h2 class="presentation__h2">The hottest review</h2>
           <p class="presentation__description">
-            Ce projet m'as demandé de construire une API pour un site de revue
-            de sauce piquante. J'ai utilisé Node.js et son framework Express,
-            Mongodb pour la base de donnée, jsonwebtoken pour
-            l'anthentification, bcrypt pour le chiffrement de mot de passe. Ce
-            projet m'as inité au back-end, au bonne pratique de sécurité
-            informatique et à l'algorithmie.
+            Ce projet m'a demandé de construire une API pour un site de revue de
+            sauce piquante. J'ai utilisé Node.js et son framework Express,
+            Mongodb pour la base de données, jsonwebtoken pour
+            l'authentification, bcrypt pour le chiffrement de mot de passe. Ce
+            projet m'a initié au back-end, aux bonnes pratique de sécurité
+            informatique, au respect des recommandations OWASP et à
+            l'algorithmie.
           </p>
-          <router-link class="button-2" to="/portfolio"
+          <router-link class="button-2" to="/thehottestreview"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -140,14 +142,14 @@
         <figcaption class="presentation__figcaption">
           <h2 class="presentation__h2">Groupomania</h2>
           <p class="presentation__description">
-            Ce projet m'as demandé de designer et de construire une application
+            Ce projet m'a demandé de designer et de construire une application
             fullstack en guise de réseau social pour une entreprise. J'ai
             utilisé figma pour le design. J'ai utilisé pour le front HTML5,
             Vue.js et SASS. Pour le back-end, j'ai utilisé Node.js et express,
-            SQL, l'ORM sequilize, jsonwebtoken et bcrypt. Ce projet m'as inité à
+            SQL, l'ORM sequilize, jsonwebtoken et bcrypt. Ce projet m'a initié à
             Vue.js et au développement fullstack.
           </p>
-          <router-link class="button-2" to="/portfolio"
+          <router-link class="button-2" to="/groupomania"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -157,7 +159,7 @@
       <h2 class="home__h2 home__h2--no-margin">
         Intéressé à travailler avec moi ?
       </h2>
-      <router-link class="button-2" to="/contact">Contactez moi</router-link>
+      <a class="button-2" href="mailto:romeo.nobime@mailo.com">Contactez moi</a>
     </section>
   </main>
   <footer class="footer">
@@ -190,10 +192,10 @@
             >
           </li>
           <li class="navigation__list navigation__list--footer">
-            <router-link
-              to="/contact"
+            <a
+              href="mailto:romeo.nobime@mailo.com"
               class="navigation__link navigation__link--white"
-              >Contactez moi</router-link
+              >Contactez moi</a
             >
           </li>
         </ul>

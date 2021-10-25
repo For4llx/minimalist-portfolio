@@ -13,14 +13,39 @@ const routes = [
     component: () => import('../views/Portfolio.vue'),
   },
   {
-    path: '/project',
-    name: 'Project',
-    component: () => import('../views/Project.vue'),
-  },
-  {
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue'),
+  },
+  {
+    path: '/reservia',
+    name: 'Reservia',
+    component: () => import('../views/Reservia.vue'),
+  },
+  {
+    path: '/ohmyfood',
+    name: 'OhMyFood',
+    component: () => import('../views/OhMyFood.vue'),
+  },
+  {
+    path: '/lachouetteagence',
+    name: 'LaChouetteAgence',
+    component: () => import('../views/LaChouetteAgence.vue'),
+  },
+  {
+    path: '/orinoco',
+    name: 'Orinoco',
+    component: () => import('../views/Orinoco.vue'),
+  },
+  {
+    path: '/thehottestreview',
+    name: 'TheHottestReview',
+    component: () => import('../views/TheHottestReview.vue'),
+  },
+  {
+    path: '/groupomania',
+    name: 'Groupomania',
+    component: () => import('../views/Groupomania.vue'),
   },
 ]
 

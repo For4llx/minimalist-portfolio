@@ -25,8 +25,8 @@
             >
           </li>
           <li class="navigation__list">
-            <router-link to="/contact" class="navigation__link"
-              >Contactez moi</router-link
+            <a href="mailto:romeo.nobime@mailo.com" class="navigation__link"
+              >Contactez moi</a
             >
           </li>
         </ul>
@@ -38,48 +38,53 @@
       <figure class="project__figure">
         <img
           class="project__img"
-          src="../assets/project/reservia_Desktop.png"
+          src="../assets/project/groupomania_Desktop.png"
           alt="Projet"
         />
         <figcaption class="project__figcaption">
           <div class="presentation__container">
             <div class="project__container-1">
-              <h2 class="presentation__h2">Reservia</h2>
+              <h2 class="presentation__h2">Groupomania</h2>
               <p
                 class="presentation__description presentation__description--project"
               >
-                Ce projet m'as demandé de construire une page d'accueil
-                entièrement responsive selon un design fourni. J'ai utilisé
-                HTML5 avec du CSS vanilla en utilisant principalement flexbox.
-                Ce projet m'as principalement initié à la méthodologie BEM, au
-                bonne pratique et au respect des normes W3C en HTML et CSS.
+                Ce projet m'a demandé de retravailler un site internet déjà
+                existant pour améliorer ses performances, son SEO et son
+                accessibilité. J'ai utilisé l'outil lighthouse pour faire un
+                audit avant et après mon intervention. Ce projet m'a initié aux
+                bonnes pratiques SEO, aux bonnes pratiques d'accessibilité et à
+                l'amélioration des performances d'un site internet.
               </p>
               <p class="project__competences">
-                Front end developement / intégration de maquette
+                Développement front / Développement back
               </p>
-              <p class="project__technologies">HTML / CSS</p>
-              <router-link class="button-2" to="/portfolio"
-                >Visiter le site</router-link
+              <p class="project__technologies">
+                Vue.js / SASS / Node.js / SQL / Sequilize
+              </p>
+              <a
+                class="button-2"
+                href="https://romeonobime-7-30062021.herokuapp.com/"
+                >Visiter le site</a
               >
             </div>
 
             <div class="project__container-2">
               <h3 class="project__h3">Contexte du projet</h3>
               <p class="project__description">
-                Ce projet est la première mission de la formation développeur
-                web de chez Openclassrooms. Elle nous met en condition réel en
-                tant que développeur web ou je devais réaliser l'intégration
-                d'une maquette pour un site de reservation de chambre d'hôtel.
+                Ce projet est la sixième et dernière mission de la formation
+                développeur web de chez Openclassrooms. Elle nous met en
+                condition réel en tant que développeur web où je devais réaliser
+                un réseau social d'entreprise. C'est une application fullstack.
                 Comme tous les projets d'openclassrooms, ce projet s'est conclu
                 par une présentation devant un développeur sénior jouant le rôle
-                du client. Enfin j'ai dû justifier tous mes choix technique
+                du client. Enfin j'ai dû justifier tous mes choix techniques
                 devant ce même développeur cette fois-ci évaluant mon travail
                 sous la casquette d'évaluateur.
               </p>
               <h3 class="project__h3">Prévisualition</h3>
               <img
                 class="project__preview"
-                src="../assets/project/reservia_Desktop.png"
+                src="../assets/project/groupomania_Desktop.png"
                 alt="page d'accueil"
               />
             </div>
@@ -91,9 +96,8 @@
       <h2 class="home__h2 home__h2--no-margin">
         Intéressé à travailler avec moi ?
       </h2>
-      <router-link class="button-2" to="/contact">Contactez moi</router-link>
+      <a class="button-2" href="mailto:romeo.nobime@mailo.com">Contactez moi</a>
     </section>
-    -->
   </main>
   <footer class="footer">
     <div class="footer__container-1">
@@ -125,10 +129,10 @@
             >
           </li>
           <li class="navigation__list navigation__list--footer">
-            <router-link
-              to="/contact"
+            <a
+              href="mailto:romeo.nobime@mailo.com"
               class="navigation__link navigation__link--white"
-              >Contactez moi</router-link
+              >Contactez moi</a
             >
           </li>
         </ul>
@@ -166,6 +170,6 @@
 
 <script>
 export default {
-  name: 'Project',
+  name: 'LaChouetteAgence',
 }
 </script>

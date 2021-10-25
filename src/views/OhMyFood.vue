@@ -34,52 +34,61 @@
     </div>
   </header>
   <main class="home">
-    <section class="home__section-1">
-      <div class="home__container-1">
-        <h1 class="home__h1">
-          Bonjour, je m'appelle Roméo Nobimé et j'adore construire de beau sites
-          internets
-        </h1>
-        <a class="button" href="#about-me">
-          <div class="button__container-1">
-            <svg
-              class="button__icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="14"
-            >
-              <g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
-                <path d="M0 9l8 4 8-4" />
-                <path opacity=".5" d="M0 5l8 4 8-4" />
-                <path opacity=".25" d="M0 1l8 4 8-4" />
-              </g>
-            </svg>
-            <p class="button__p">À propos de moi</p>
-          </div>
-        </a>
-      </div>
-    </section>
-    <section class="presentation">
-      <figure class="presentation__figure">
+    <section class="project">
+      <figure class="project__figure">
         <img
-          class="presentation__img"
-          src="../assets/homepage/desktop/photo_de_profil.jpg"
+          class="project__img"
+          src="../assets/project/ohmyfood_Desktop.png"
+          alt="Projet"
         />
-        <figcaption class="presentation__figcaption">
-          <h2 class="presentation__h2">À propos de moi</h2>
-          <p class="presentation__description">
-            Je suis un développeur front-end junior à la recherche d'un nouveau
-            rôle dans une entreprise passionnante. Je me concentre pour écrire
-            du code HTML accessible, en utilisant des pratiques CSS modernes et
-            en écrivant du JavaScript propre. Lorsque j'écris du code
-            JavaScript, j'utilise principalement Vue.js, mais je peux m'adapter
-            à quels que soient les outils nécessaires. Je suis basé à Paris, en
-            France, mais je serais heureux de travailler à distance et avoir de
-            l'expérience dans des équipes à distance.
-          </p>
-          <router-link class="button-2" to="/portfolio"
-            >Voir le Portfolio</router-link
-          >
+        <figcaption class="project__figcaption">
+          <div class="presentation__container">
+            <div class="project__container-1">
+              <h2 class="presentation__h2">Oh My Food</h2>
+              <p
+                class="presentation__description presentation__description--project"
+              >
+                Ce projet m'a demandé de construire plusieurs pages entièrement
+                responsive selon un design fourni pour un site de réservation de
+                menu en restaurant. J'ai utilisé HTML5 avec du SASS et des
+                animations CSS moderne. Ce projet m'a principalement initié aux
+                animations, à SASS et au concept de réutilisation de composants
+                CSS.
+              </p>
+              <p class="project__competences">
+                Front end developement / intégration de maquette
+              </p>
+              <p class="project__technologies">HTML / SASS</p>
+              <a
+                class="button-2"
+                href="https://for4llx.github.io/ohMyFood/ohmyfood/"
+                >Visiter le site</a
+              >
+            </div>
+
+            <div class="project__container-2">
+              <h3 class="project__h3">Contexte du projet</h3>
+              <p class="project__description">
+                Ce projet est la seconde mission de la formation développeur web
+                de chez Openclassrooms. Elle nous met en condition réel en tant
+                que développeur web où je devais réaliser l'intégration d'une
+                maquette. C'est un site qui a pour but de limiter le temps
+                d'attente entre le moment où on passe sa commande et le moment
+                où on la reçoit en commandant au restaurant avant même d'être
+                sur place. Comme tous les projets d'openclassrooms, ce projet
+                s'est conclu par une présentation devant un développeur sénior
+                jouant le rôle du client. Enfin j'ai dû justifier tous mes choix
+                techniques devant ce même développeur cette fois-ci évaluant mon
+                travail sous la casquette d'évaluateur.
+              </p>
+              <h3 class="project__h3">Prévisualition</h3>
+              <img
+                class="project__preview"
+                src="../assets/project/ohmyfood_Desktop.png"
+                alt="page d'accueil"
+              />
+            </div>
+          </div>
         </figcaption>
       </figure>
     </section>
@@ -161,6 +170,6 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'OhMyFood',
 }
 </script>

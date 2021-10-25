@@ -34,52 +34,64 @@
     </div>
   </header>
   <main class="home">
-    <section class="home__section-1">
-      <div class="home__container-1">
-        <h1 class="home__h1">
-          Bonjour, je m'appelle Roméo Nobimé et j'adore construire de beau sites
-          internets
-        </h1>
-        <a class="button" href="#about-me">
-          <div class="button__container-1">
-            <svg
-              class="button__icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="14"
-            >
-              <g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
-                <path d="M0 9l8 4 8-4" />
-                <path opacity=".5" d="M0 5l8 4 8-4" />
-                <path opacity=".25" d="M0 1l8 4 8-4" />
-              </g>
-            </svg>
-            <p class="button__p">À propos de moi</p>
-          </div>
-        </a>
-      </div>
-    </section>
-    <section class="presentation">
-      <figure class="presentation__figure">
+    <section class="project">
+      <figure class="project__figure">
         <img
-          class="presentation__img"
-          src="../assets/homepage/desktop/photo_de_profil.jpg"
+          class="project__img"
+          src="../assets/project/thehottestreview_Desktop.png"
+          alt="Projet"
         />
-        <figcaption class="presentation__figcaption">
-          <h2 class="presentation__h2">À propos de moi</h2>
-          <p class="presentation__description">
-            Je suis un développeur front-end junior à la recherche d'un nouveau
-            rôle dans une entreprise passionnante. Je me concentre pour écrire
-            du code HTML accessible, en utilisant des pratiques CSS modernes et
-            en écrivant du JavaScript propre. Lorsque j'écris du code
-            JavaScript, j'utilise principalement Vue.js, mais je peux m'adapter
-            à quels que soient les outils nécessaires. Je suis basé à Paris, en
-            France, mais je serais heureux de travailler à distance et avoir de
-            l'expérience dans des équipes à distance.
-          </p>
-          <router-link class="button-2" to="/portfolio"
-            >Voir le Portfolio</router-link
-          >
+        <figcaption class="project__figcaption">
+          <div class="presentation__container">
+            <div class="project__container-1">
+              <h2 class="presentation__h2">The Hottest Review</h2>
+              <p
+                class="presentation__description presentation__description--project"
+              >
+                Ce projet m'a demandé de construire une API pour un site de
+                revue de sauce piquante. J'ai utilisé Node.js et son framework
+                Express, Mongodb pour la base de données, jsonwebtoken pour
+                l'authentification, bcrypt pour le chiffrement de mot de passe.
+                Ce projet m'a initié au back-end, aux bonnes pratique de
+                sécurité informatique, au respect des recommandations OWASP et à
+                l'algorithmie.
+              </p>
+              <p class="project__competences">
+                Développement back end / Base de donnée
+              </p>
+              <p class="project__technologies">
+                Javascript / Node.js / MongoDB
+              </p>
+              <a
+                class="button-2"
+                href="https://github.com/For4llx/TheHottestReview/tree/main/So_pekocko/backend"
+                >Visiter le site</a
+              >
+            </div>
+
+            <div class="project__container-2">
+              <h3 class="project__h3">Contexte du projet</h3>
+              <p class="project__description">
+                Ce projet est la cinquième mission de la formation développeur
+                web de chez Openclassrooms. Elle nous met en condition réel en
+                tant que développeur web où je devais réaliser une API pour un
+                site de revue de sauce piquante. On peut créer un compte
+                récupérer, ajouter, modifier et supprimer des sauces piquantes
+                et les noter avec un système like/dislike. Comme tous les
+                projets d'openclassrooms, ce projet s'est conclu par une
+                présentation devant un développeur sénior jouant le rôle du
+                client. Enfin j'ai dû justifier tous mes choix techniques devant
+                ce même développeur cette fois-ci évaluant mon travail sous la
+                casquette d'évaluateur.
+              </p>
+              <h3 class="project__h3">Prévisualition</h3>
+              <img
+                class="project__preview"
+                src="../assets/project/thehottestreview_Desktop.png"
+                alt="page d'accueil"
+              />
+            </div>
+          </div>
         </figcaption>
       </figure>
     </section>
@@ -161,6 +173,6 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Orinoco',
 }
 </script>
