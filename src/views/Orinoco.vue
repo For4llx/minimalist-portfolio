@@ -61,6 +61,7 @@
               <a
                 class="button-2"
                 href="https://romeonobime-5-28072021.herokuapp.com/index.html"
+                target="_blank"
                 >Visiter le site</a
               >
             </div>
@@ -137,7 +138,7 @@
         <nav class="social">
           <ul class="social__ul">
             <li class="social__list">
-              <a href="https://github.com/For4llx"
+              <a href="https://github.com/For4llx" target="_blank"
                 ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24">
                   <path
                     class="social__icon-path"
@@ -149,6 +150,7 @@
             <li class="social__list">
               <a
                 href="https://www.linkedin.com/in/rom%C3%A9o-nobim%C3%A9-308649219/"
+                target="_blank"
                 ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path
                     class="social__icon-path"
