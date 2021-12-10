@@ -53,10 +53,10 @@
                 discuter avec d'autres utilisateurs via un chat, poster des
                 images, changer d'avatar, se déconnecter ou enfin supprimer son
                 profil. Il existe aussi un compte administrateur pouvant
-                supprimer n'importe quels message pour modérer le chat. Sur
-                cette version de démonstration on ne peut que se connecter avec
-                un compte de démonstration mais je serais ravi de vous montrer
-                les fonctionnalités de l'application en entretien si cela vous
+                supprimer n'importe quel message pour modérer le chat. Sur cette
+                version de démonstration on ne peut que se connecter avec un
+                compte de démonstration, mais je serais ravi de vous montrer les
+                fonctionnalités de l'application en entretien si cela vous
                 intéresse.
               </p>
               <p class="project__competences">
