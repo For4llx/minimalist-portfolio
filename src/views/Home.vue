@@ -74,11 +74,13 @@
             Je suis un développeur front-end junior à la recherche d'un nouveau
             rôle dans une entreprise passionnante. Je me concentre pour écrire
             du code HTML accessible, en utilisant des pratiques CSS modernes et
-            en écrivant du JavaScript propre. Lorsque j'écris du code
-            JavaScript, j'utilise principalement Vue.js, mais je peux m'adapter
-            à quels que soient les outils nécessaires. Je suis basé à Paris, en
-            France, mais je serais heureux de travailler à distance et avoir de
-            l'expérience dans des équipes à distance.
+            en écrivant du javascript propre. Lorsque j'écris du code, j'utilise
+            React.js et Typescript, mais je connais aussi Vue.js qui est ma
+            première expérience de framework javascript (Ce site web et mon plus
+            gros projet "Groupomania" utilise encore Vue.js). Bien entendu, je
+            peux m'adapter à quels que soient les outils nécessaires. Je suis
+            basé à Paris, en France, mais je serais heureux de travailler à
+            distance et avoir de l'expérience dans des équipes à distance.
           </p>
           <router-link class="button-2" to="/portfolio" @click="scrollToTop"
             >Voir le Portfolio</router-link

@@ -48,12 +48,16 @@
               <p
                 class="presentation__description presentation__description--project"
               >
-                Ce projet m'a demandé de retravailler un site internet déjà
-                existant pour améliorer ses performances, son SEO et son
-                accessibilité. J'ai utilisé l'outil lighthouse pour faire un
-                audit avant et après mon intervention. Ce projet m'a initié aux
-                bonnes pratiques SEO, aux bonnes pratiques d'accessibilité et à
-                l'amélioration des performances d'un site internet.
+                Ce projet m'a demandé de construire un réseau social
+                d'entreprise. On y peut se créer un compte, se connecter,
+                discuter avec d'autres utilisateurs via un chat, poster des
+                images, changer d'avatar, se déconnecter ou enfin supprimer son
+                profil. Il existe aussi un compte administrateur pouvant
+                supprimer n'importe quels message pour modérer le chat. Sur
+                cette version de démonstration on ne peut que se connecter avec
+                un compte de démonstration mais je serais ravi de vous montrer
+                les fonctionnalités de l'application en entretien si cela vous
+                intéresse.
               </p>
               <p class="project__competences">
                 Développement front / Développement back
@@ -177,5 +181,10 @@
 <script>
 export default {
   name: 'LaChouetteAgence',
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0)
+    },
+  },
 }
 </script>

@@ -116,12 +116,16 @@
       <nav class="navigation navigation--footer">
         <ul class="navigation__ul navigation__ul--footer">
           <li class="navigation__list navigation__list--footer">
-            <router-link to="/" class="navigation__link navigation__link--white"
+            <router-link
+              to="/"
+              class="navigation__link navigation__link--white"
+              @click="scrollToTop"
               >Accueil</router-link
             >
           </li>
           <li class="navigation__list navigation__list--footer">
             <router-link
+              @click="scrollToTop"
               to="/portfolio"
               class="navigation__link navigation__link--white"
               >Portfolio</router-link
@@ -171,5 +175,10 @@
 <script>
 export default {
   name: 'Reservia',
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0)
+    },
+  },
 }
 </script>
