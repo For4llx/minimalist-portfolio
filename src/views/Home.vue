@@ -77,7 +77,7 @@
             en écrivant du javascript propre. Lorsque j'écris du code, j'utilise
             React.js et Typescript, mais je connais aussi Vue.js qui est ma
             première expérience de framework javascript (Ce site web et mon plus
-            gros projet "Groupomania" utilise encore Vue.js). Bien entendu, je
+            gros projet "Groupomania" utilisent encore Vue.js). Bien entendu, je
             peux m'adapter à quels que soient les outils nécessaires. Je suis
             basé à Paris, en France, mais je serais heureux de travailler à
             distance et avoir de l'expérience dans des équipes à distance.
