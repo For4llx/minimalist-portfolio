@@ -48,11 +48,12 @@
               <p
                 class="presentation__description presentation__description--project"
               >
-                Ce projet m'as demandé de construire une page d'accueil
-                entièrement responsive selon un design fourni. J'ai utilisé
-                HTML5 avec du CSS vanilla en utilisant principalement flexbox.
-                Ce projet m'as principalement initié à la méthodologie BEM, au
-                bonne pratique et au respect des normes W3C en HTML et CSS.
+                Ce projet m'a demandé de construire une page d'accueil
+                entièrement responsive selon un design fourni pour un site de
+                réservation de chambre d'hôtel. J'ai utilisé HTML5 avec du CSS
+                vanilla en utilisant principalement flexbox. Ce projet m'a
+                principalement initié à la méthodologie BEM, aux bonnes
+                pratiques et au respect des normes W3C en HTML et CSS.
               </p>
               <p class="project__competences">
                 Front end developement / intégration de maquette

@@ -50,7 +50,7 @@
             méthodologie BEM, aux bonnes pratiques et au respect des normes W3C
             en HTML et CSS.
           </p>
-          <router-link class="button-2" to="/Reservia"
+          <router-link class="button-2" to="/Reservia" @click="scrollToTop"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -69,7 +69,7 @@
             animations CSS moderne. Ce projet m'a principalement initié aux
             animations, à SASS et au concept de réutilisation de composants CSS.
           </p>
-          <router-link class="button-2" to="/ohmyfood"
+          <router-link class="button-2" to="/ohmyfood" @click="scrollToTop"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -89,7 +89,10 @@
             bonnes pratiques d'accessibilité et à l'amélioration des
             performances d'un site internet.
           </p>
-          <router-link class="button-2" to="/lachouetteagence"
+          <router-link
+            class="button-2"
+            to="/lachouetteagence"
+            @click="scrollToTop"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -108,7 +111,7 @@
             aux l'UX/UI design, Javascript et à ses bonnes pratiques, aux plans
             de test, au formulaire et aux appels APIs.
           </p>
-          <router-link class="button-2" to="/orinoco"
+          <router-link class="button-2" to="/orinoco" @click="scrollToTop"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -129,7 +132,10 @@
             informatique, au respect des recommandations OWASP et à
             l'algorithmie.
           </p>
-          <router-link class="button-2" to="/thehottestreview"
+          <router-link
+            class="button-2"
+            to="/thehottestreview"
+            @click="scrollToTop"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -149,7 +155,7 @@
             SQL, l'ORM sequilize, jsonwebtoken et bcrypt. Ce projet m'a initié à
             Vue.js et au développement fullstack.
           </p>
-          <router-link class="button-2" to="/groupomania"
+          <router-link class="button-2" to="/groupomania" @click="scrollToTop"
             >Voir le projet</router-link
           >
         </figcaption>
@@ -180,7 +186,10 @@
       <nav class="navigation navigation--footer">
         <ul class="navigation__ul navigation__ul--footer">
           <li class="navigation__list navigation__list--footer">
-            <router-link to="/" class="navigation__link navigation__link--white"
+            <router-link
+              to="/"
+              class="navigation__link navigation__link--white"
+              @click="scrollToTop"
               >Accueil</router-link
             >
           </li>
@@ -188,6 +197,7 @@
             <router-link
               to="/portfolio"
               class="navigation__link navigation__link--white"
+              @click="scrollToTop"
               >Portfolio</router-link
             >
           </li>
@@ -235,5 +245,10 @@
 <script>
 export default {
   name: 'Portfolio',
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0)
+    },
+  },
 }
 </script>

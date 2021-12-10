@@ -20,7 +20,10 @@
             <router-link to="/" class="navigation__link">Accueil</router-link>
           </li>
           <li class="navigation__list">
-            <router-link to="/portfolio" class="navigation__link"
+            <router-link
+              to="/portfolio"
+              class="navigation__link"
+              @click="scrollToTop"
               >Portfolio</router-link
             >
           </li>
@@ -37,8 +40,8 @@
     <section class="home__section-1">
       <div class="home__container-1">
         <h1 class="home__h1">
-          Bonjour, je m'appelle Roméo Nobimé et j'adore construire de beau sites
-          internets
+          Bonjour, je m'appelle Roméo Nobimé et j'adore construire de beaux
+          sites internets
         </h1>
         <a class="button" href="#about-me">
           <div class="button__container-1">
@@ -59,7 +62,7 @@
         </a>
       </div>
     </section>
-    <section class="presentation">
+    <section class="presentation" id="about-me">
       <figure class="presentation__figure">
         <img
           class="presentation__img"
@@ -77,7 +80,7 @@
             France, mais je serais heureux de travailler à distance et avoir de
             l'expérience dans des équipes à distance.
           </p>
-          <router-link class="button-2" to="/portfolio"
+          <router-link class="button-2" to="/portfolio" @click="scrollToTop"
             >Voir le Portfolio</router-link
           >
         </figcaption>
@@ -108,7 +111,10 @@
       <nav class="navigation navigation--footer">
         <ul class="navigation__ul navigation__ul--footer">
           <li class="navigation__list navigation__list--footer">
-            <router-link to="/" class="navigation__link navigation__link--white"
+            <router-link
+              to="/"
+              class="navigation__link navigation__link--white"
+              @click="scrollToTop"
               >Accueil</router-link
             >
           </li>
@@ -116,6 +122,7 @@
             <router-link
               to="/portfolio"
               class="navigation__link navigation__link--white"
+              @click="scrollToTop"
               >Portfolio</router-link
             >
           </li>
@@ -163,5 +170,10 @@
 <script>
 export default {
   name: 'Home',
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0)
+    },
+  },
 }
 </script>
